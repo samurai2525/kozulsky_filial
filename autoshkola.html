@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Автошкола Козульского филиала ЕДСТ: подготовка водителей категорий B и C, документы, учебные маршруты.">
+  <title>Автошкола - Козульский филиал ЕДСТ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/8e0d81f0f4.js" crossorigin="anonymous"></script>
+  <style>
+*::-webkit-scrollbar {
+  height: 1px;
+  width: 16px;
+}
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #ffcc00;
+  border-radius: 50px;
+  height: 10px;
+  width: 5px;
+  border: 4px solid #ffffff;
+}
+
+    .button-bg { background-color: #ffcc00; }
+    .text-bright-yellow { color: #ffcc00; }
+    .hover\:button-bg:hover { background-color: #e6b800; }
+    .dropdown:hover .dropdown-menu { display: block; }
+    .dropdown-menu { display: none; position: absolute; background-color: #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.1); z-index: 10; }
+    .dropdown-menu a { display: block; padding: 0.5rem 1rem; color: #4B5563; }
+    .dropdown-menu a:hover { background-color: #F7FAFC; color: #ffcc00; }
+  </style>
+</head>
+<body class="bg-white font-sans">
+  <!-- Навигация -->
+  <nav class="bg-white p-4 fixed w-full top-0 z-20 shadow-sm">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-semibold text-gray-800 hover:text-bright-yellow transition">Козульский филиал</a>
+      <ul class="flex space-x-6 text-gray-600">
+        <li class="relative dropdown">
+          <a href="index.html" class="hover:text-bright-yellow transition">Сведения об организации</a>
+          <div class="dropdown-menu rounded-md" style="width: 205px;">
+            <a href="about.html">О филиале</a>
+            <a href="education.html">Образование</a>
+            <a href="https://edst24.ru/wp-content/uploads/2024/12/svedenija-o-pedagogicheskih-rabotnikah-kozulskij-filial.pdf">Педагогический состав</a>
+          </div>
+        </li>
+        <li class="relative dropdown">
+          <a href="#" class="hover:text-bright-yellow transition">Абитуриентам</a>
+          <div class="dropdown-menu rounded-md" style="width: 195px;">
+            <a href="admissions.html">Приёмная комиссия</a>
+            <a href="programs.html">Программы обучения</a>
+           
+          </div>
+        </li>
+        <li class="relative dropdown">
+          <a href="#" class="hover:text-bright-yellow transition">Студентам</a>
+          <div class="dropdown-menu rounded-md" style="width: 244px;">
+            <a href="schedule.html">Расписание и сессии</a>
+            <a href="practice.html">Практика и трудоустройство</a>
+            <a href="https://pwa.kiasuo.ru/welcome">Электронный журнал</a>
+          </div>
+        </li>
+        <li><a href="autoshkola.html" class="text-bright-yellow font-medium">Автошкола</a></li>
+        <li><a href="documents.html" class="hover:text-bright-yellow transition">Документы</a></li>
+        <li><a href="index.html#contacts" class="hover:text-bright-yellow transition">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Основной контент -->
+  <section class="py-24 pt-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-semibold text-gray-800 text-center mb-12">Автошкола Козульский филиал</h2>
+      <div class="bg-gray-100 p-8 rounded-md">
+        <h3 class="text-2xl font-medium text-gray-800 mb-4">Профессиональная подготовка водителей ТС категории «В»</h3>
+        <p class="text-gray-600 mb-6">Автошкола Козульского филиала готовит водителей категории B (легковые автомобили) в соответствии с требованиями ГИБДД.</p>
+        <ul class="list-disc list-inside text-gray-600 mb-6">
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/otchet-samoobsledovanija-kategorija-ts-v.pdf" class="text-gray-600 hover:underline">Отчёт самообследования (категория B)</a></li>
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/zakljuchenie-gibdd-na-sootvetstvie-uchebno-materialnoj-bazy-kategorija-v.pdf" class="text-gray-600 hover:underline">Заключение ГИБДД (категория B)</a></li>
+        </ul>
+
+        <h3 class="text-2xl font-medium text-gray-800 mb-4">Профессиональная подготовка водителей ТС категории «С»</h3>
+        <p class="text-gray-600 mb-6">Программа подготовки водителей категории C (грузовые автомобили) в соответствии с требованиями ГИБДД.</p>
+        <ul class="list-disc list-inside text-gray-600 mb-6">
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/zakljuchenie-gibdd-na-sootvetstvie-uchebno-materialnoj-bazy-kategorii-s.pdf" class="text-gray-600 hover:underline">Заключение ГИБДД (категория C)</a></li>
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/otchet-samoobsledovanija-uchebno-materialnoj-bazy.pdf" class="text-gray-600 hover:underline">Отчёт самообследования учебно-материальной базы</a></li>
+        </ul>
+
+        <h3 class="text-2xl font-medium text-gray-800 mb-4">Варианты сдачи 1 этапа практического экзамена (площадка)</h3>
+        <ul class="list-disc list-inside text-gray-600 mb-6">
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/plan-zakrytoj-ploshhadki.pdf" class="text-gray-600hover:underline">План закрытой площадки</a></li>
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/variant-1.pdf" class="text-gray-600hover:underline">Вариант 1</a></li>
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/variant-2.pdf" class="text-gray-600 hover:underline">Вариант 2</a></li>
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/variant-3.pdf" class="text-gray-600 hover:underline">Вариант 3</a></li>
+        </ul>
+
+        <h3 class="text-2xl font-medium text-gray-800 mb-4">Учебные маршруты</h3>
+        <h4 class="text-xl font-medium text-gray-800 mb-2">Учебный маршрут № 1</h4>
+        <ul class="list-disc list-inside text-gray-600 mb-6">
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/opisanie-uchebnogo-marshruta-1.pdf" class="text-gray-600 hover:underline">Описание учебного маршрута 1</a></li>
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/shema-uchebnogo-marshruta-1.pdf" class="text-gray-600 hover:underline">Схема учебного маршрута 1</a></li>
+        </ul>
+
+        <h4 class="text-xl font-medium text-gray-800 mb-2">Учебный маршрут № 2</h4>
+        <ul class="list-disc list-inside text-gray-600 mb-6">
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/opisanie-uchebnogo-marshruta-2.pdf" class="text-gray-600 hover:underline">Описание учебного маршрута 2</a></li>
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/shema-uchebnogo-marshruta-2.pdf" class="text-gray-600 hover:underline">Схема учебного маршрута 2</a></li>
+        </ul>
+
+        <h4 class="text-xl font-medium text-gray-800 mb-2">Учебный маршрут № 3</h4>
+        <ul class="list-disc list-inside text-gray-600 mb-6">
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/opisanie-uchebnogo-marshruta-3.pdf" class="text-gray-600 hover:underline">Описание учебного маршрута 3</a></li>
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/shema-uchebnogo-marshruta-3.pdf" class="text-gray-600 hover:underline">Схема учебного маршрута 3</a></li>
+        </ul>
+
+        <h4 class="text-xl font-medium text-gray-800 mb-2">Испытательный маршрут</h4>
+        <ul class="list-disc list-inside text-gray-600 mb-6">
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/opisanie-ispytatelnogo-marshruta.pdf" class="text-gray-600 hover:underline">Описание испытательного маршрута</a></li>
+          <li><a href="https://edst24.ru/wp-content/uploads/2018/11/shema-ispytatelnogo-marshruta.pdf" class="text-gray-600 hover:underline">Схема испытательного маршрута</a></li>
+        </ul>
+
+        <p class="text-gray-600">Адрес: ул. Школьная, 6а, пгт Козулька, Красноярский край, 662050.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="bg-gray-100 py-8">
+    <div class="container mx-auto text-center">
+      <p class="text-gray-600">© 2025 Козульский филиал Емельяновского дорожно-строительного техникума</p>
+    </div>
+  </footer>
+</body>
+</html>
